@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Strings</title>
+
+	<script type="text/javascript">
+		var fichero1 = 'fichero de prueba.pdf'
+		var fichero2 = 'fichero en prueba.jpg'
+		
+		posicion= fichero1.lastIndexOf('.')
+		document.write('Extensión del fichero:    ' + fichero1.substring(fichero1.lastIndexOf('.')+1) + '<br>');
+		document.write('Extensión del fichero:    ' + fichero2.substring(fichero2.lastIndexOf('.')+1) + '<br>');
+
+		document.write('nombre del fichero:       ' + fichero1.substr(0,fichero1.lastIndexOf('.')))
+		document.write('<br>')
+		document.write('nombre del fichero:       ' + fichero2.substr(0,fichero1.lastIndexOf('.')))
+		document.write('<br>')
+		document.write('extracción :       ' + fichero1.substr(fichero1.indexOf('de'),2))
+		document.write('<br>')
+		document.write('extracción :       ' + fichero2.substr(fichero2.indexOf('en'),2))
+		document.write('<br>')
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
